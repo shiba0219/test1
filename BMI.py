@@ -8,7 +8,7 @@ confirm_input=st.button('輸入確定')
 bmi=w/(h*h)
 
 if confirm_input:
-    bmi=BMI(w,h)
+    bmi=w/(h*h)
     #print('BMI為,bmi')
     st.write_('BMI為,bmi')
     if bmi<18:
