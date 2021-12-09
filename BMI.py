@@ -5,8 +5,6 @@ w=st.number_input('請輸入體重(KG)?')
 h=st.number_input('請輸入身高(M)?')
 confirm_input=st.button('輸入確定')
 
-bmi=w/(h*h)
-
 if confirm_input:
     bmi=w/(h*h)
     #print('BMI為,bmi')
